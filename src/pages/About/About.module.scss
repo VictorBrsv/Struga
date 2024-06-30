@@ -1,0 +1,39 @@
+.section_about {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+
+  .inner {
+    width: 1296px;
+
+    h1 {
+      font-size: 50px;
+      font-weight: 400;
+      line-height: 60.95px;
+      text-align: left;
+      color: #f5e2c3;
+    }
+
+    .description {
+      display: flex;
+
+      .text {
+        flex: 2;
+
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: left;
+          color: #f5e2c3;
+        }
+      }
+
+      .photos {
+        flex: 1;
+      }
+    }
+  }
+}

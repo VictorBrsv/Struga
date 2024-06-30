@@ -1,0 +1,34 @@
+.clients_container {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60.95px;
+    text-align: left;
+    color: #f5e2c3;
+  }
+
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .clients {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+
+      .imgs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+        width: 1296px;
+      }
+    }
+  }
+}

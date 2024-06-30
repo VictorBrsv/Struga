@@ -1,0 +1,17 @@
+.btn {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 70px;
+  border-radius: 20px;
+  border: 1px solid #be713c;
+  cursor: pointer;
+
+  span {
+    font-size: 16px;
+    text-align: center;
+    color: #f5e2c3;
+  }
+}

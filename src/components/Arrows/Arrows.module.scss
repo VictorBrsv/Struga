@@ -1,0 +1,30 @@
+.ellipse_left {
+  position: absolute;
+  left: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid #f5e2c3;
+  cursor: pointer;
+  .arrow {
+    color: #f5e2c3;
+  }
+}
+.ellipse_right {
+  position: absolute;
+  left: 82%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid #f5e2c3;
+  cursor: pointer;
+  .arrow {
+    color: #f5e2c3;
+  }
+}

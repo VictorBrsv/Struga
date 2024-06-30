@@ -1,0 +1,22 @@
+.ellipse {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .text_border {
+    width: 100px;
+    height: 100px;
+  }
+
+  .icon {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 29%;
+    top: 27%;
+  }
+}

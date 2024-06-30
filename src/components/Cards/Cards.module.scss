@@ -1,0 +1,146 @@
+.catalog {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .row_one {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 624px;
+
+    .block_one {
+      flex: 1;
+      width: 100%;
+
+      .catalogItem1 {
+        display: flex;
+        align-items: flex-end;
+        height: 100%;
+        background-image: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.7),
+            transparent
+          ),
+          url('./../../assets/images/items/image\ 71.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+    }
+
+    .block_two {
+      flex: 1;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      .catalogItem2 {
+        display: flex;
+        align-items: flex-end;
+        width: 306px;
+        height: 300px;
+        background-image: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.7),
+            transparent
+          ),
+          url('./../../assets/images/items/image\ 51.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+
+      .catalogItem3 {
+        display: flex;
+        align-items: flex-end;
+        width: 306px;
+        height: 300px;
+        background-image: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.7),
+            transparent
+          ),
+          url('./../../assets/images/items/IMG_4534\ 1.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+
+      .catalogItem4 {
+        display: flex;
+        align-items: flex-end;
+        width: 306px;
+        height: 300px;
+        background-image: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.7),
+            transparent
+          ),
+          url('./../../assets/images/items/image\ 22.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+
+      .catalogItem5 {
+        display: flex;
+        align-items: flex-end;
+        width: 306px;
+        height: 300px;
+        background-image: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.7),
+            transparent
+          ),
+          url('./../../assets/images/items/image\ 56.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .row_two {
+    display: flex;
+    height: 300px;
+    gap: 20px;
+
+    .catalogItem6 {
+      display: flex;
+      align-items: flex-end;
+      flex: 1;
+      background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent),
+        url('./../../assets/images/items/image\ 72.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .catalogItem7 {
+      display: flex;
+      align-items: flex-end;
+      flex: 2;
+      background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent),
+        url('./../../assets/images/items/image\ 68.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+  }
+}

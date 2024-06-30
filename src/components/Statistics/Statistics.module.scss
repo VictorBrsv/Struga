@@ -1,0 +1,32 @@
+.statistics {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1296px;
+  height: 128px;
+  gap: 24px;
+
+  .item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+
+    .text {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: center;
+      color: #f5e2c3;
+    }
+
+    .number {
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 60px;
+      text-align: center;
+      color: #f5e2c3;
+    }
+  }
+}

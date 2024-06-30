@@ -1,0 +1,26 @@
+.content {
+  display: flex;
+  align-items: center;
+  gap: 96px;
+  width: 1296px;
+  margin-top: 64px;
+
+  .text {
+    .title_block {
+      .title_text {
+        color: #be713c;
+        font-size: 60px;
+      }
+    }
+
+    .subtitle_block {
+      margin-top: 32px;
+
+      .subtitle_text {
+        font-size: 32px;
+        line-height: 39.01px;
+        color: #f5e2c3;
+      }
+    }
+  }
+}
